@@ -1,8 +1,8 @@
 name: Build Feature
-
 on:
   push:
-    branches: [ "feature/*" ]
+    branches: 
+      - feature/*
   pull_request:
     branches:
       - main
