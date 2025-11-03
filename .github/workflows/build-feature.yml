@@ -45,7 +45,7 @@ jobs:
       run: |
         echo "building with maven"
         mvn clean install
-=======
+
 name: build and test feature branch
 on:
   pull_request:
